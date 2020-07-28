@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-family: 'Chewy', cursive;
+    font-size: 100%;
+    background-color: black;
+    color:gold;
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 300%;
+}
+
+input{
+    height: 30px;
+    width: 30px;
+    font-size: 125%;
+    font-family: 'Chewy', cursive;
+    background-color: gold;
+    border-radius: 5px;
+    margin: 3px;
+    border-color: maroon;
+}
+/*
+input:hover{
+    background-color: yellow;
+    box-shadow: -1px 1px 1px white;
+}
+
+input[disabled=true] {
+    background-color: black;
+    color:gold;
+}
+*/
+
+#newGame{
+    height: 50px;
+    width: 150px;
+}
+
+#newGame:hover{
+    box-shadow: -3px 3px 3px white;
+}
+
+#world{
+    letter-spacing: 15px;
+    font-size: 250%;
+}
+
+#lettersButtons{
+    padding: 3%;
+    margin-inline: 3%;
+    border : 2px gold dashed;
+}
+
+#lettersButtons:hover{
+    background-color: rgba(30,30,10,0.5) ;
+}
